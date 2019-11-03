@@ -1,0 +1,45 @@
+.card span:after{
+   content: 'Cerrajería   24 H';
+   
+                animation: casa 3s linear infinite;  
+    
+    
+}
+
+
+   @keyframes casa{
+                60%{
+                  content: ' 7 días a la semana';  
+                  
+                }  
+
+                40%{
+                  content: 'Tardamos 25 min en llegar';  
+                  animation: casa 2s linear infinite; 
+                }  
+
+
+            }
+
+
+
+
+
+/* 
+@content media-breakpoint-up(sm) {
+ .card span:after {
+    font-size: 1.7rem;
+  }
+}
+
+@content media-breakpoint-up(md) {
+  #card span:after{
+    font-size: 1.8rem;
+  }
+}
+
+@content media-breakpoint-up(lg) {
+ #card span:after{
+    font-size: 1.9rem;
+  }
+}  */
