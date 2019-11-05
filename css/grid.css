@@ -8,11 +8,7 @@
 
 .post-list{
     display:grid;
-      /*  grid-template-columns:25% 200px 25%;  
-            grid-template-rows:300px 300px;*/
             grid-template:repeat(2 ,minmax(200px, 1fr))/ repeat(3 ,minmax(200px, 300px));
-           /* grid-column-gap:30px; 
-            grid-row-gap: 10px;*/
             grid-gap:60px 90px;
             justify-content: center;
             
@@ -33,11 +29,7 @@
 
         .post-list{
             display:grid;
-            /*  grid-template-columns:25% 200px 25%;  
-                  grid-template-rows:300px 300px;*/
                   grid-template:repeat(1 ,minmax(200px, 1fr))/ repeat(3 ,minmax(120px, 240px));
-                 /* grid-column-gap:30px; 
-                  grid-row-gap: 10px;*/
                   grid-gap:60px 90px;
                   justify-content: center;
         }
@@ -54,11 +46,7 @@
 
             .post-list{
                 display:grid;
-                /*  grid-template-columns:25% 200px 25%;  
-                      grid-template-rows:300px 300px;*/
                       grid-template:repeat(1 ,minmax(200px, 1fr))/ repeat(3 ,minmax(120px, 180px));
-                     /* grid-column-gap:30px; 
-                      grid-row-gap: 10px;*/
                       grid-gap:60px 80px;
                       justify-content: center;
             }
@@ -82,12 +70,8 @@
 
 
         .post-list{
-       
-              /*  grid-template-columns:25% 200px 25%;  
-                    grid-template-rows:300px 300px;*/
                     grid-template:repeat(1 ,minmax(300px, 1fr))/ repeat(2 ,minmax(120px, 170px));
-                   /* grid-column-gap:30px; 
-                    grid-row-gap: 10px;*/
+           
                     grid-gap:20px 90px;
                     justify-content: center;
         }
@@ -100,12 +84,8 @@
 
 
             .post-list{
-           
-                  /*  grid-template-columns:25% 200px 25%;  
-                        grid-template-rows:300px 300px;*/
                         grid-template:repeat(1 ,minmax(350px, 1fr))/ repeat(2 ,minmax(90px, 120px));
-                       /* grid-column-gap:30px; 
-                        grid-row-gap: 10px;*/
+
                         grid-gap:20px 80px;
                         justify-items: center;
 
@@ -124,13 +104,10 @@
 
 
             .post-list{
-           
-                  /*  grid-template-columns:25% 200px 25%;  
-                        grid-template-rows:300px 300px;*/
+
                           
                         grid-template:repeat(1 , 1fr)/ repeat(1 ,minmax(200px,1fr));
-                       /* grid-column-gap:30px; 
-                        grid-row-gap: 10px;*/
+
                         grid-gap:20px 20px;
                         margin-left:50px;
                         margin-right:50px;
