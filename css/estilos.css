@@ -16,7 +16,7 @@
 	
 	/*----*****---- << Headings >> ----*****----*/
 	
-	h1, h2, h3, h4, h5, h6 { line-height: 45px; margin-bottom:30px;; }
+	h1, h2, h3, h4, h5, h6 { line-height: 35px; margin-bottom:30px;; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#252525; }
 	h1 { font-size: 55px; font-weight: 600; }
 	h2 { font-size: 35px; font-weight: 600; }
@@ -51,7 +51,7 @@
 	sub, sup { font-size:75%; position:relative; vertical-align:baseline; }
 	sub { bottom: -3px; }
 	sup { top: -9px; }
-	p { line-height: 22px; margin-bottom: 10px;  }	
+	p { line-height: 1.2; margin-bottom: 10px;  }	
 	ul, ol, pre, code{ margin-bottom:20px; }
 	ul{ list-style-type: none; list-style-position:inside; }
 	ul li { padding-bottom:10px; line-height: 26px; }
@@ -199,7 +199,7 @@
 	.animate { visibility:hidden; }
 	/*----*****---- << Header >> ----*****----*/
 	#header { display: block; margin: 0; padding: 0; width: 100%; z-index: 999999; }
-	#home.content { display: table; display:block\0/; height: 100%; overflow: hidden; position: relative; vertical-align: middle; width: 100%;  padding-bottom:0; }
+	#home.content { display: table; display:block\0/; height: 85%; overflow: hidden; position: relative; vertical-align: middle; width: 100%;  padding-bottom:0; }
 	.dt-menu-toggle { color: #ffffff; cursor: pointer; display: none; font-weight: bold; padding: 10px 15px; ; border: 1px solid rgba(255,255,255,0.7); }
 	.dt-menu-toggle i { display: inline-block; float: right; font-size: 18px; margin-right: 4px; margin-top: 4px; position: relative; }
 	.mockup-slider #home.content, .grid-slider #home.content { height: auto; }	
@@ -451,7 +451,7 @@
 	
 	/*----*****---- << Parallax >> ----*****----*/
 	
-	.dt-sc-parallax-section { background:url(http://placehold.it/1920x1200&text=Parallax+Image) fixed no-repeat; background-attachment:fixed; background-color: #000000; background-repeat:no-repeat; color:#fff;  padding:115px 0px; border-top: 4px solid;
+	.dt-sc-parallax-section { background:url(http://placehold.it/1920x1200&text=Parallax+Image) fixed no-repeat; background-attachment:fixed; background-color: #000000; background-repeat:no-repeat; color:#fff;  padding:35px 0px; border-top: 4px solid;
 	border-bottom: 4px solid; position: relative; }
 	.dt-sc-parallax-section .container { z-index: 9999; }	
 	
@@ -601,7 +601,7 @@
 		article.blog-entry .entry-details .tags, article.blog-entry .entry-details .tags a { float: left; width: 100%; }
 		article.blog-entry .entry-details .tags a i { margin-right: 5px; }
 		
-		article.blog-entry .entry-content { float: left; width: 95%; padding: 10% 5% 0% 0px; }
+		article.blog-entry .entry-content { float: left; width: 95%; padding: 14% 5% 0% 0px; }
 		
 		article.blog-entry:hover, article.blog-entry:hover .entry-thumb, article.blog-entry:hover .entry-details .entry-meta, article.blog-entry:hover a.read-more { border-color: #ddd; }
 		article.blog-entry:hover .entry-thumb .entry-title { background: #ddd; }
@@ -1059,8 +1059,8 @@
 
 
 
-.column { margin:0px 0px 0px 2%; float:left; min-height:1px; position:relative; }
-.column.first { margin-left:0px; }	
+.column {  float:left; min-height:1px; position:relative; }
+/* .column.first { margin-left:; }	 */
 
 .dt-sc-full-width { width:100%; }
 .column.dt-sc-full-width { margin-left:0px; }
@@ -1425,7 +1425,7 @@ ol.dt-sc-fancy-list.wetasphalt li { color:#34495e; }
 .dt-sc-ico-content.type5 h5:before {  content: ""; display: block; position: absolute; bottom: 12px; right: 0; left: 0; margin: 0px auto; font-family: 'FontAwesome'; font-size: 14px; width: 12px; height: 12px;
 line-height: 12px; border: 5px solid #000; border-radius: 50%; }
 .dt-sc-ico-content.type5 h5:after {  content: ""; display: block; position: absolute; bottom: -10px; right: 0; left: 0; margin: 0px auto; width: 8px; height: 25px; line-height: 13px; border-radius: 0 0 10px 10px; z-index: -1; }
-.dt-sc-ico-content.type5 p { width: 100%; float: left; margin-top: 5px; }
+.dt-sc-ico-content.type5 p { width: 100%; float: left; margin-top: 5px;line-height: 1.2; }
 .dt-sc-ico-content.type5 .dt-sc-content { padding: 20px; float: left; position: relative; margin-top: 15px; }
 .dt-sc-ico-content.type5 .dt-sc-content:before { content: ""; position: absolute; left: 0px; top: 0px;  width: 100%; height: 100%; z-index: -1; }
 .dt-sc-ico-content.type5 .dt-sc-content:after { left: 0; right: 0; margin: 0px auto; top: -15px; position: absolute; content: ""; display: block; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent;
@@ -2305,7 +2305,7 @@ src:url(Graphik-Regular.ttf) format("truetype");
 .precios li blockquote{
     font-size:1.5em;
     font-family:regular24;
-    line-height: 2.5;
+    line-height: 1.2;
     font-weight: 800
 }
 
@@ -2342,7 +2342,7 @@ margin-left:45%
           .nosotros p,li  {
 font-family: regular22;
 
-line-height: 1.7;
+line-height: 1.2;
 font-weight:400;
 font-size:1.5em
 
@@ -2401,7 +2401,7 @@ font-size: 1.3em
 
 .servicios2 p{
 
-    line-height:1.5
+    line-height:1.7
 }
 
 
@@ -2452,7 +2452,7 @@ font-weight: normal
 
 @media screen and (min-width: 970px) { 
 
-    .margin20{margin-top:10%}
+    .margin20{margin-top:0%}
 
 }
 
@@ -2803,7 +2803,7 @@ left:0;
 
 
         font-size:1.3em;
-        line-height: 1.5
+        line-height: 1.2
     } 
 
 
@@ -2973,7 +2973,7 @@ margin-left:40%
 
        
         font-size:1.2em;
-        line-height: 1.5;
+        line-height: 1.2;
         
         }
 
@@ -3039,7 +3039,7 @@ h4{ font-size: 1.4em;
 
 
     font-size:1.3em;
-    line-height: 1.65
+    line-height: 1.2
 }
 
 
@@ -3067,7 +3067,7 @@ h4{ font-size: 1.4em;
 
 
 .servicios2 p{
-    font-size: 20px
+    font-size: 17px
 }
 
 
@@ -3527,7 +3527,7 @@ ul#team-section div.team-details.empty-text h3 { color: #000; }
 	h2 { font-size: 40px; }
 	h3 { font-size: 35px; }
 	h4 { font-size: 24px; }
-	h5 { font-size: 16px; }
+
 	h6 { font-size: 12px; letter-spacing: 1px; }
 	
 	h2.main-title::before, h3.main-title::before, h4.main-title::before { bottom: 20%; }
@@ -3651,7 +3651,7 @@ ul#team-section div.team-details.empty-text h3 { color: #000; }
 	
 	h1 { font-size: 50px; }
 	h2 { font-size: 40px; }
-	h3 { font-size: 34px; }
+	h3 { font-size: 30px; }
 	h4 { font-size: 22.5px; }
 	h5 { font-size: 16px; }
 	h6 { font-size: 12px; letter-spacing: 1px; }
@@ -4102,7 +4102,7 @@ ul#team-section div.team-details.empty-text h3 { color: #000; }
 	
 	h1 { font-size: 34px; }
 	h2, .boxed .dt-sc-service-carousel .dt-sc-carousel li h2 { font-size: 26px; }
-	h3 { font-size: 24px; }
+	h3 { font-size: 22px; }
 	h4 { font-size: 18px; }
 	h5 { font-size: 22px; }
 	h6 { font-size: 14px; }
