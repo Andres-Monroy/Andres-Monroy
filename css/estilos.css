@@ -2209,7 +2209,7 @@ left:500px
  
 .fondo2{
 
-background-image:linear-gradient(45deg, #1caecd 53%, rgba(28, 205, 170, 0.7) 0, rgba(28, 184, 205, 0.7)), url("../cerrajeria.jpg");
+background-image:linear-gradient(45deg, #1caecd 53%, rgba(28, 205, 170, 0.7) 0, rgba(28, 184, 205, 0.7)), url("../cerrajeria.png");
 background-position: 0px 0px, 101% 50%;
 background-size: auto, cover;
 background-repeat: repeat, no-repeat;
